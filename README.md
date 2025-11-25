@@ -12,13 +12,21 @@ Paleta de colores coherente, tipografía integrada y espacios bien definidos.
 
 Buenas prácticas de maquetado, evitando desbordamientos y manteniendo la estructura limpia mediante clases y el modelo de caja (box model).
 
-Este trabajo constituye una etapa práctica del módulo de Diseño y CSS, en la que se evalúa tanto la parte visual como la implementación técnica de estilos.
+Uso de javascript para validar entradas de un formulario.
+
+Este trabajo constituye una etapa práctica del módulo de Diseño, CSS y javascript, en la que se evalúa la parte visual, la implementación técnica de estilos y el uso de javascriptt.
 
 # Estructura del proyecto
 
 index.html → Página principal del sitio. Contiene el encabezado, catálogo de productos y footer.
 
 index.css → Hoja de estilos principal. Define los colores, fuentes, espaciados, flexbox y reglas responsive.
+
+success.html → Pagina que señala exito en envío de formulario.
+
+success.css → Hoja de estilos para la página success.
+
+form.js → Script que valida valores ingresados al formulario y realiza la redirección.
 
 /imagenes/ → Carpeta que almacena las imágenes utilizadas en el sitio.
 

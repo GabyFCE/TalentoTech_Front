@@ -191,11 +191,12 @@
             <h2>Contacto</h2>
             <p class="contacto-parrafo">Ante cualquier duda no dude en contactarnos</p>
             <div class="form-container">
-                <form class="formulario">
+                <form id="form" class="formulario">
                 <input type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre"><br>
                 <input type="email" name="email" id="email" placeholder="Ingrese su email"><br>
                 <textarea class="mensaje" rows="4" name="Mensaje" id="mensaje" placeholder="Escriba su mensaje"></textarea> <br>
-                <button class="boton-form">Enviar</button>
+                <button id="btn_enviar" class="boton-form">Enviar</button>
+                <div id="errorBox"></div>
                 </form>
             </div>
         </section>
@@ -220,5 +221,6 @@
             </div>
         </section>
     </footer>
+    <script src="js/form.js"></script>
 </body>
 </html>
